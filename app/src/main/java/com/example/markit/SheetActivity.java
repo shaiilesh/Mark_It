@@ -2,24 +2,55 @@ package com.example.markit;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+import android.widget.Toolbar;
 
 import java.util.Calendar;
 
 public class SheetActivity extends AppCompatActivity {
 
 
+    Toolbar toolbar;
+    private TextView subtitle;
+    private String className;
+    private String subjectName;
+    private long cid;
+    private int position;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sheet);
-
+        Intent intent = getIntent();
+        className = intent.getStringExtra("className");
+        subjectName = intent.getStringExtra("subjectName");
+        position = intent.getIntExtra("position",-1);
+        cid = intent.getLongExtra("cid",-1);
         showTable();
+        setToolbar();
+    }
+
+    private void setToolbar() {
+        toolbar = findViewById(R.id.toolbar);
+        TextView title =toolbar.findViewById(R.id.title_toolbar);
+        subtitle = toolbar.findViewById(R.id.subtitle_toolbar);
+        ImageButton back =toolbar.findViewById(R.id.back);
+        ImageButton save =toolbar.findViewById(R.id.save);
+
+
+        title.setText("Monthly Sheet");
+        title.setTextSize(18);
+        save.setVisibility(View.INVISIBLE);
+        subtitle.setVisibility(View.GONE);
+        back.setOnClickListener(V->onBackPressed());
     }
 
     private void showTable() {

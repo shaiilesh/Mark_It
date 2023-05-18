@@ -50,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(classAdapter);
         classAdapter.setOnItemClickListener(position -> gotoItemActivity(position));
         setToolbar();
+
+
     }
 
     private void loadData() {
@@ -74,7 +76,8 @@ public class MainActivity extends AppCompatActivity {
         ImageButton back =toolbar.findViewById(R.id.back);
         ImageButton save =toolbar.findViewById(R.id.save);
 
-        title.setText("Mark It");
+        title.setText("Mark It | VIIT");
+        title.setTextSize(18);
         subtitle.setVisibility(View.GONE);
         back.setVisibility(View.INVISIBLE);
         save.setVisibility(View.INVISIBLE);
@@ -134,4 +137,6 @@ public class MainActivity extends AppCompatActivity {
         classItems.remove(position);
         classAdapter.notifyItemRemoved(position);
     }
+
+
 }
