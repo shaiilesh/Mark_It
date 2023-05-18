@@ -7,6 +7,7 @@ monthly reports, which can be used by administrators to monitor attendance trend
   <img src="https://github.com/shaiilesh/Mark_It/raw/master/Class_item.jpg" alt="Class Item" width="200">
   <img src="https://github.com/shaiilesh/Mark_It/raw/master/Add%20Class.jpg" alt="Class List interface" width="200">
   <img src="https://github.com/shaiilesh/Mark_It/raw/master/Add%20Students.jpg" alt="Add Students" width="200">
+  <img src="https://github.com/shaiilesh/Mark_It/raw/master/Attendance.jpg" alt="Attandance" width="200">
 </div>
 
 
