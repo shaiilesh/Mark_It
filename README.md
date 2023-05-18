@@ -3,7 +3,7 @@ The app typically features a user-friendly interface that enables users to quick
 a particular class or event, and can easily view and edit attendance records as needed. The app also allow teachers to generate reports on attendance, such as 
 monthly reports, which can be used by administrators to monitor attendance trends and identify areas for improvement
 
-![Class List interface](https://github.com/shaiilesh/Mark_It/assets/84300510/11b12af9-738d-4a9c-9952-9c44086b8b62=10x)    ![WhatsApp Image 2023-05-16 at 15 01 11](https://github.com/shaiilesh/Mark_It/assets/84300510/7d1aafde-82ad-4a3b-a041-1befaa0b86f2=10x)
+![Class List interface](Add Class.jpg)    ![WhatsApp Image 2023-05-16 at 15 01 11](https://github.com/shaiilesh/Mark_It/assets/84300510/7d1aafde-82ad-4a3b-a041-1befaa0b86f2=10x)
 
 ![WhatsApp Image 2023-05-16 at 15 02 05](https://github.com/shaiilesh/Mark_It/assets/84300510/1e1e1606-76f8-4d2f-9119-495717f2e96e)    ![WhatsApp Image 2023-05-16 at 15 02 07](https://github.com/shaiilesh/Mark_It/assets/84300510/16eb62c7-67d4-4530-8fa5-2b430befeeb4)
 
