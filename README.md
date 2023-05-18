@@ -8,6 +8,7 @@ monthly reports, which can be used by administrators to monitor attendance trend
   <img src="https://github.com/shaiilesh/Mark_It/raw/master/Class_item.jpg" alt="Class Item" width="170">
   <img src="https://github.com/shaiilesh/Mark_It/raw/master/Add%20Students.jpg" alt="Add Students" width="170">
   <img src="https://github.com/shaiilesh/Mark_It/raw/master/Attendance.jpg" alt="Attandance" width="170">
+  <br>
   <img src="https://github.com/shaiilesh/Mark_It/raw/master/Update_student.jpg" alt="Update Student" width="170">
   <img src="https://github.com/shaiilesh/Mark_It/raw/master/Change%20Date.jpg" alt="Change Date" width="170">
   <img src="https://github.com/shaiilesh/Mark_It/raw/master/Months.jpg" alt="Months" width="170">
